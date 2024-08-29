@@ -9,6 +9,7 @@ const HomeDesktop = () => {
     <>
       <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
   <div className="carousel-inner">
+    <p className="texto-principal">Asesoría energética</p>
     <div className="carousel-item active">
       <img src={imageA} className="d-block w-100" alt="..."/>
     </div>
