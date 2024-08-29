@@ -1,11 +1,12 @@
+
+import Home from './views/HomeView.jsx'
 import './App.css'
-import HomeDesktop from './components/Home/HomeDesktop'
 
 function App() {
 
   return (
     <>
-    <HomeDesktop />
+    <Home />
     </>
   )
 }
