@@ -17,7 +17,7 @@ const Router = () => {
         <Navbar></Navbar>
         <main>
           <Routes>
-            <Route exact path="/home" element={<HomeView />} />
+            <Route exact path="/" element={<HomeView />} />
             <Route exact path="/hacemos" element={<QueHacemosView />} />
             <Route exact path="/mision" element={<NuestraMision />} />
             <Route exact path="/opcion-B" element={<OpcionBView />} />
