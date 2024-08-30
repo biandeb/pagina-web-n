@@ -4,3 +4,13 @@
 .list-footer {
     list-style: none;
   }
+.footer {
+    justify-content: center;
+    align-items: center;     
+    padding: 20px;
+}
+.rayo-logo {
+    width: 100px;
+    height: auto;
+    margin: 0 10px; 
+}

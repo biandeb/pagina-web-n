@@ -1,6 +1,6 @@
 import "../../styles/HomeDesktop.css";
 
-import imageA from "../../assets/image.webp";
+import imageA from "../../assets/imageA.webp";
 import imageB from "../../assets/imageB.webp";
 import imageC from "../../assets/imageC.webp";
 

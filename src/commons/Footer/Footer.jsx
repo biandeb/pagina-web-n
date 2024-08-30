@@ -1,10 +1,12 @@
 import "./footer.css";
 
+import rayo from '../../assets/rayo.png'
+
 const Footer = () => {
   return (
       <footer className="footer container-xl">
         <div className="d-flex">
-          <a href="#" className="me-2 p-2 pe-3text-blue">
+          <a href="#" className="me-2 p-2 pe-3 text-black">
             <svg
               width="24"
               height="24"
@@ -23,7 +25,7 @@ const Footer = () => {
               ></path>
             </svg>
           </a>
-          <a href="#" className="me-2 p-2 text-blue">
+          <a href="#" className="me-2 p-2 text-black">
             <svg
               width="24"
               height="24"
@@ -42,7 +44,7 @@ const Footer = () => {
               ></path>
             </svg>
           </a>
-          <a href="#" className="me-2 p-2 text-blue">
+          <a href="#" className="me-2 p-2 text-black">
             <svg
               width="24"
               height="24"
@@ -61,7 +63,7 @@ const Footer = () => {
               ></path>
             </svg>
           </a>
-          <a href="#" className="me-2 p-2 text-blue">
+          <a href="#" className="me-2 p-2 text-black">
             <svg
               width="24"
               height="24"
@@ -180,11 +182,9 @@ const Footer = () => {
           </article>
         </section>
         <div className="mt-4 ms-2">
-          <a href="#" className="">
-            Código de servicio
-          </a>
+          <img className="rayo-logo mb-3" src={rayo} alt="Rayo logo" />
         </div>
-        <p className="text-secondary mt-3 ms-1">&copy; 2024 N - Asesoría energética.</p>
+        <p className="text-black mt-3 ms-1 fs-5">&copy; 2024 Asesoría energética <b>N</b></p>
       </footer>
   );
 };
