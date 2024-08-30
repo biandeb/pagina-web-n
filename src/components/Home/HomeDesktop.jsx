@@ -14,7 +14,7 @@ const HomeDesktop = () => {
       >
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <p className="texto-principal mt-5">Auditoría energética industrial</p>
+            <p className="texto-principal mt-5">Auditoría energética</p>
             <p className="texto-secundario mt-4">
             Optimiza tu energía, maximiza tu ahorro.
             </p>
