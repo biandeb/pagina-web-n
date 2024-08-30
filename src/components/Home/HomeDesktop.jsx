@@ -1,4 +1,4 @@
-import "../../styles/HomeDesktop.css";
+import "../../../styles/HomeDesktop.css";
 
 import imageA from "../../assets/imageA.webp";
 import imageB from "../../assets/imageB.webp";
