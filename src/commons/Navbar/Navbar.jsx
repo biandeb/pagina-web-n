@@ -9,7 +9,7 @@ const Navbar = () => {
     <>
       <navbar className="navbar navbar-expand-lg">
         <div className="container gap-4 ms-5 fs-5">
-          <Link to="/home">
+          <Link to="/">
             <img
               src={logo}
               alt="Logo compañía N"
@@ -37,11 +37,6 @@ const Navbar = () => {
               <li className="nav-item">
                 <NavLink className="nav-link text-navbar" to='/opcion-B'>
                   Opción 2
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink className="nav-link text-navbar" to='/opcion-C'>
-                  Opción 3
                 </NavLink>
               </li>
             </ul>
