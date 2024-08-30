@@ -1,55 +1,53 @@
-import "./navbar.css";
+import { Link, NavLink } from "react-router-dom";
 
-import logo from '../../assets/logo-n.png';
+import logo from "../../assets/logo-n.png";
+
+import "./navbar.css";
 
 const Navbar = () => {
   return (
     <>
-      <header className="header navbar navbar-expand-lg">
-        <div className="container-fluid gap-4 ms-5 fs-5">
-          <img
-            src={logo}
-            alt="Logo compañía N"
-            className="mx-auto d-block"
-            style={{ width: "100px", height: "auto" }}
-          />
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarDesktop"
-            aria-controls="navbarDesktop"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
+      <navbar className="navbar navbar-expand-lg">
+        <div className="container gap-4 ms-5 fs-5">
+          <Link to="/home">
+            <img
+              src={logo}
+              alt="Logo compañía N"
+              className="mx-auto d-block"
+              style={{ width: "100px", height: "auto" }}
+            />
+          </Link>
           <div className="collapse navbar-collapse" id="navbarDesktop">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
-                  ¿Qué hacemos?
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Nuestra misión
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
+                <NavLink className="nav-link active text-navbar" aria-current="page" to='*'>
                   Nuestros servicios
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <NavLink className="nav-link text-navbar" to='*'>
+                  Tecnologías
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link text-navbar" to='*'>
                   Contacto
-                </a>
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link text-navbar" to='/opcion-B'>
+                  Opción 2
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link text-navbar" to='/opcion-C'>
+                  Opción 3
+                </NavLink>
               </li>
             </ul>
           </div>
         </div>
-      </header>
+      </navbar>
     </>
   );
 };

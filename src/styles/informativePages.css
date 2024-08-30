@@ -35,7 +35,7 @@ display: flex;
 .title {
     font-size: 500%;
     font-weight: bold;
-    color: #0687d2;
+    color: white;
     margin-bottom: 15px;
     text-shadow: 1px 1px 8px #000000,
     -3px 2px 1px #313131
@@ -44,6 +44,8 @@ display: flex;
 .info-text {
     font-size: 1.2rem;
     color: #000000;
+    padding-left: 10%;
+    padding-right: 10%;
     line-height: 1.5;
     text-shadow: -1px -1px 6px #ffff,
     2px 1px 1px #ffff
@@ -56,3 +58,29 @@ display: flex;
     width: 100%;
     height: 120vh;
 }
+
+.info-error{
+    color: #313131;
+}
+.title-error{
+    font-size: 500%;
+    font-weight: bold;
+    color: #db9411;
+    margin-bottom: 10px;
+}
+.error-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%; 
+}
+.all-error {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15%;
+    margin-top: 10%;
+  }
+  .img-error {
+    width: 140px;
+  }
+  

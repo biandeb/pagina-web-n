@@ -1,8 +1,12 @@
-import HomeDesktop from "../components/Home/HomeDesktop"
+import HomeDesktop from "../components/Home/HomeDesktop";
+import HomeMobile from "../components/Home/HomeMobile";
 
-const Home = () => {
+const HomeView = () => {
   return (
-    <HomeDesktop />
-  )
-}
-export default Home
+    <>
+      <HomeDesktop />
+      <HomeMobile />
+    </>
+  );
+};
+export default HomeView;

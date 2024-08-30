@@ -1,20 +1,23 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
+import React from "react";
+import ReactDOM from "react-dom/client";
 
-import Navbar from './commons/Navbar/Navbar.jsx';
-import Footer from './commons/Footer/Footer.jsx';
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+
+import "./index.css";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 import "bootstrap-icons/font/bootstrap-icons.css";
 
-import './index.css'
+import Router from "./Router";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+
+const queryClient = new QueryClient();
+
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Navbar />
-    <App />
-    <Footer />
+    <QueryClientProvider client={queryClient}>
+      <Router />
+    </QueryClientProvider>
   </React.StrictMode>,
-)
+);

@@ -1,6 +1,3 @@
-.footer{
-    margin-top: 2%;
-}
 .list-footer {
     list-style: none;
   }
@@ -8,6 +5,8 @@
     justify-content: center;
     align-items: center;     
     padding: 20px;
+    margin-top: 2%;
+    background-color: white;
 }
 .rayo-logo {
     width: 100px;

@@ -7,7 +7,7 @@ const QueHacemos = () => {
     <div className="all">
       <div className="text-container container container-principal">
         <p className="title">¿QUÉ HACEMOS?</p>
-        <p className="info-text fs-1">
+        <p className="info-text fs-2">
           En N nos dedicamos a ofrecer a nuestros clientes un ahorro eficiente
           en sus suministros. Nuestro objetivo es sencillo: proveer a las
           empresas con un asesor energético integral que maximice todas sus

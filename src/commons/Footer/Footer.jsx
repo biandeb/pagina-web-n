@@ -88,19 +88,19 @@ const Footer = () => {
             <ul className="ps-0 list-footer">
               <li>
                 <a
-                  href="#"
+                  to='*'
                   className="text-secondary mb-2 d-block text-decoration-none"
                 >
-                  Audio descriptivo
+                  Auditoría energética
                 </a>
                 <a
-                  href="#"
+                  to='*'
                   className="text-secondary mb-2 d-block text-decoration-none"
                 >
                   Relaciones con inversionistas
                 </a>
                 <a
-                  href="#"
+                  to='*'
                   className="text-secondary mb-2 d-block text-decoration-none"
                 >
                   Avisos legales
@@ -112,19 +112,19 @@ const Footer = () => {
             <ul className="ps-0 list-footer">
               <li>
                 <a
-                  href="#"
+                  to='*'
                   className="text-secondary mb-2 d-block text-decoration-none"
                 >
                   Centro de ayuda
                 </a>
                 <a
-                  href="#"
+                  to='*'
                   className="text-secondary mb-2 d-block text-decoration-none"
                 >
                   Empleo
                 </a>
                 <a
-                  href="#"
+                  to='*'
                   className="text-secondary mb-2 d-block text-decoration-none"
                 >
                   Preferencias de cookies
@@ -136,19 +136,19 @@ const Footer = () => {
             <ul className="ps-0 list-footer">
               <li>
                 <a
-                  href="#"
+                  to='*'
                   className="text-secondary mb-2 d-block text-decoration-none"
                 >
                   Consultas frecuentes
                 </a>
                 <a
-                  href="#"
+                  to='*'
                   className="text-secondary mb-2 d-block text-decoration-none"
                 >
                   Términos de uso
                 </a>
                 <a
-                  href="#"
+                  to='*'
                   className="text-secondary mb-2 d-block text-decoration-none"
                 >
                   Información corporativa
@@ -160,19 +160,19 @@ const Footer = () => {
             <ul className="ps-0 list-footer">
               <li>
                 <a
-                  href="#"
+                  to='*'
                   className="text-secondary mb-2 d-block text-decoration-none"
                 >
                   Prensa
                 </a>
                 <a
-                  href="#"
+                  to='*'
                   className="text-secondary mb-2 d-block text-decoration-none"
                 >
                   Privacidad
                 </a>
                 <a
-                  href="#"
+                  to='*'
                   className="text-secondary mb-2 d-block text-decoration-none"
                 >
                   Contáctanos

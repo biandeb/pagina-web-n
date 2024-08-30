@@ -1,10 +1,20 @@
-.header {
-    display: flex;
-    height: 110px;
-    background-color: rgba(6, 135, 210, 0.7);
-    color: black,
-}
 
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    z-index: 10;
+    padding: 10px 20px; 
+}
+.text-navbar{
+    color: black;
+    font-weight: bold;
+}
+.nav-item{
+    text-shadow: -1px 1px 4px #ffffffab, 2px -1px 3px #ffffffc9;
+}
 
   /* #0687d2
 #6a832e
